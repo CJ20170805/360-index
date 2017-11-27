@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+}
+body{
+    background:#fff;
+    color:#333;
+    font-size:14px;
+    font-family:"SimSun","微软雅黑","Arial Narrow";}
+
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a{text-decoration:none;
+    color: #333}
+a:link{color:#333;}
+a:active,a:focus{color:#c00;text-decoration:none;}
+.fl{float:left}
+.fr{float:right}
+ul li{
+    font:13px Tahoma,Helvetica,arial,sans-serif ;
+}
+
+/*.clear :after{*/
+    /*content: '';*/
+    /*clear: both;*/
+    /*display: block;*/
+/*}*/
+/*.clear{zoom:1}*/
+.blue{background-color: #00A0E8}
+.clearfix{
+    clear: both;
+}
